@@ -51,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen> with RouteAware {
 
   @override
   void didPopNext() {
-    // When the route has been popped, restart the timer to show the splash screen again
+  
     _timer = Timer(Duration(seconds: 2), () {
       Navigator.pushReplacement(
         context,
